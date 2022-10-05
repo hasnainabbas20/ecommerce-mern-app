@@ -1,0 +1,8 @@
+.nav-items:hover {
+  border-radius: 49px;
+  padding: 5px;
+  color: white;
+  background-color: #fcadad;
+  transition: padding 0.5s;
+  transition: padding,color 0.5s;
+}
