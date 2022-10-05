@@ -11,11 +11,11 @@ const Testimonial = () => {
           style={{ width: 90 }}
         />
         <p>
-          <span>Chris Fox.</span> <br /> 
+          <span>Gandu Gameti.</span> <br /> 
           <p> Authentic Buyer</p>
         </p>
-        <p>Love the The material and the over all quality of the product.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo libero earum possimus repudiandae odit facere obcaecati eum aperiam commodi voluptatibus soluta dolorum maxime, rerum officia. Possimus repellendus optio consectetur nulla veniam non fuga iusto, officiis velit necessitatibus, culpa asperiores, rem incidunt fugiat sapiente inventore quia dolorum. Incidunt, aliquid quas nostrum aliquam modi reiciendis, delectus natus voluptate dolorum quo culpa error itaque alias cum! Aspernatur.
+        <p><i>Loved the material and the over all quality of the product.
+          The art shows the culture of our priviliged nation. One of the best and well manufactured things encountered so far.</i>
         </p>
       </div>
       <div className="container">
@@ -28,7 +28,7 @@ const Testimonial = () => {
           <span>Rebecca Flex.</span>
           <br /> CEO at Company.
         </p>
-        <p>Best quality ever it just make me feel like i'm in my childhood</p>
+        <p><i>Best quality ever it just make me feel like i'm in my childhood</i></p>
       </div>
     </>
   );

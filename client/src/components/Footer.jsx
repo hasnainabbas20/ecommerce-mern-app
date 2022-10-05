@@ -9,10 +9,13 @@ import {
 } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import "./footer.css";
+
 
 const Container = styled.div`
   display: flex;
   ${mobile({ flexDirection: "column" })}
+
 `;
 const Nonlink = styled.div`
   a:link {
@@ -38,7 +41,6 @@ const Nonlink = styled.div`
     background-color: transparent;
     text-decoration: none;
   }
-  ${mobile({ flexDirection: "column" })}
 `;
 
 const Left = styled.div`
@@ -108,6 +110,9 @@ const ContactItem = styled.div`
 const Payment = styled.img`
   width: 50%;
 `;
+const responsive = styled.div`
+  
+`;
 
 const Footer = () => {
   return (
@@ -144,6 +149,7 @@ const Footer = () => {
       <Center>
         <Title>Useful Links</Title>
         <List>
+        
           <ListItem>Home</ListItem>
           <ListItem>Cart</ListItem>
           <ListItem>Hand-bags</ListItem>
@@ -178,6 +184,7 @@ const Footer = () => {
         </Nonlink>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
+      
     </Container>
   );
 };

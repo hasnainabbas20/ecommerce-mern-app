@@ -11,7 +11,7 @@ import Testimonial from "../components/Testimonial";
 const Home = () => {
   return (
     <div>
-      <Announcement />
+      <Announcement id="Announcement" />
       <Navbar />
       <Slider />
       <Categories />
