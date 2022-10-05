@@ -4,7 +4,7 @@ export const sliderItems = [
       img: "https://cdn.shopify.com/s/files/1/0617/1928/1844/products/115001163A-3.jpg?v=1658395412",
       title: "SUMMER SALE",
       desc: "Some of the best selling products are on sale",
-      bg: "FCF1ED",
+      bg: "https://img.freepik.com/premium-photo/gray-calathea-lutea-leaf-patterned-background_53876-149681.jpg?w=1480",
       
     },
     {
@@ -12,14 +12,14 @@ export const sliderItems = [
       img: "https://cdn.shopify.com/s/files/1/0617/1928/1844/products/115001145D.jpg?v=1658403378",
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE READYMADE,GO FOR CUSTOM MADE",
-      bg: "fcf1ed",
+      bg: "https://img.freepik.com/premium-photo/gray-calathea-lutea-leaf-patterned-background_53876-149681.jpg?w=1480",
     },
     {
       id: 3,
       img: "https://cdn.shopify.com/s/files/1/0617/1928/1844/products/61001064-5.jpg?v=1659355305",
       title: "LOVE IT",
       desc: "GET FLAT 30% OFF FOR NEW ARRIVALS",
-      bg: "fbf0f4",
+      bg: "https://img.freepik.com/premium-photo/gray-calathea-lutea-leaf-patterned-background_53876-149681.jpg?w=1480",
      
 
     },
@@ -28,7 +28,7 @@ export const sliderItems = [
       img: "https://cdn.shopify.com/s/files/1/0617/1928/1844/products/61001064-5.jpg?v=1659355305",
       title: "heYYAA",
       desc: "GET FLAT 30% OFF FOR NEW ARRIVALS",
-      bg: "fbf0f4",
+      bg: "https://img.freepik.com/premium-photo/gray-calathea-lutea-leaf-patterned-background_53876-149681.jpg?w=1480",
      
 
     },

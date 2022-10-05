@@ -14,6 +14,32 @@ const Container = styled.div`
   display: flex;
   ${mobile({ flexDirection: "column" })}
 `;
+const Nonlink = styled.div`
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  ${mobile({ flexDirection: "column" })}
+`;
 
 const Left = styled.div`
   flex: 1;
@@ -71,7 +97,6 @@ const Right = styled.div`
   flex: 1;
   padding: 20px;
   ${mobile({ backgroundColor: "#fff8f8" })}
-
 `;
 
 const ContactItem = styled.div`
@@ -81,32 +106,39 @@ const ContactItem = styled.div`
 `;
 
 const Payment = styled.img`
-    width: 50%;
+  width: 50%;
 `;
 
 const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>LAMA.</Logo>
+        <Logo>Arti-Tech</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+          We are provind the finest traditional and modern art pieces for your
+          home and make them more beautiful.
         </Desc>
         <SocialContainer>
-          <SocialIcon color="3B5999">
-            <Facebook />
-          </SocialIcon>
-          <SocialIcon color="E4405F">
-            <Instagram />
-          </SocialIcon>
-          <SocialIcon color="55ACEE">
-            <Twitter />
-          </SocialIcon>
-          <SocialIcon color="E60023">
-            <Pinterest />
-          </SocialIcon>
+          <a href="http://www.facebook.com" target="_blank" rel="noreferrer">
+            <SocialIcon color="3B5999">
+              <Facebook />
+            </SocialIcon>
+          </a>
+          <a href="http://www.facebook.com" target="_blank" rel="noreferrer">
+            <SocialIcon color="E4405F">
+              <Instagram />
+            </SocialIcon>
+          </a>
+          <a href="http://www.facebook.com" target="_blank" rel="noreferrer">
+            <SocialIcon color="55ACEE">
+              <Twitter />
+            </SocialIcon>
+          </a>
+          <a href="http://www.facebook.com" target="_blank" rel="noreferrer">
+            <SocialIcon color="E60023">
+              <Pinterest />
+            </SocialIcon>
+          </a>
         </SocialContainer>
       </Left>
       <Center>
@@ -114,9 +146,9 @@ const Footer = () => {
         <List>
           <ListItem>Home</ListItem>
           <ListItem>Cart</ListItem>
-          <ListItem>Man Fashion</ListItem>
-          <ListItem>Woman Fashion</ListItem>
-          <ListItem>Accessories</ListItem>
+          <ListItem>Hand-bags</ListItem>
+          <ListItem>Statues</ListItem>
+          <ListItem>Crafting </ListItem>
           <ListItem>My Account</ListItem>
           <ListItem>Order Tracking</ListItem>
           <ListItem>Wishlist</ListItem>
@@ -125,16 +157,25 @@ const Footer = () => {
         </List>
       </Center>
       <Right>
-        <Title>Contact</Title>
-        <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
-        </ContactItem>
-        <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
-        </ContactItem>
-        <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
-        </ContactItem>
+        <Nonlink>
+          <Title>Contact</Title>
+          <a href="https://goo.gl/maps/R9EUD6NkHnoAZNPP8" target="_blank">
+            <ContactItem>
+              <Room style={{ marginRight: "10px" }} /> 1330, 13th Main, 4th
+              Block, Jayanagar, Bangalore-560011
+            </ContactItem>
+          </a>
+          <a href="tel:+4733378901" target="_blank">
+            <ContactItem>
+              <Phone style={{ marginRight: "10px" }} /> +91 9876543210
+            </ContactItem>
+          </a>
+          <a href="mailto:webmaster@example.com" target="_blank">
+            <ContactItem>
+              <MailOutline style={{ marginRight: "10px" }} /> contact@Art.dev
+            </ContactItem>
+          </a>
+        </Nonlink>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
     </Container>
