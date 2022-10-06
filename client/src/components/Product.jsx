@@ -1,7 +1,7 @@
 import {
-  FavoriteBorderOutlined,
-  SearchOutlined,
-  ShoppingCartOutlined,
+  Favorite,
+  Search,
+  ShoppingCart
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -13,7 +13,7 @@ const Info = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #fcf1ed69;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -24,13 +24,14 @@ const Info = styled.div`
 
 const Container = styled.div`
   flex: 1;
+  border-radius: 13px;
   margin: 5px;
   min-width: 280px;
   height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f5fbfd;
+  background-color: #FCF1ED;
   position: relative;
 
   &:hover ${Info}{
@@ -48,6 +49,7 @@ const Circle = styled.div`
 
 const Image = styled.img`
   height: 75%;
+  border-radius: 13px;
   z-index: 2;
 `;
 
@@ -61,10 +63,6 @@ const Icon = styled.div`
   justify-content: center;
   margin: 10px;
   transition: all 0.5s ease;
-  &:hover {
-    background-color: #e9f5f5;
-    transform: scale(1.1);
-  }
 `;
 
 const Product = ({ item }) => {
@@ -74,15 +72,24 @@ const Product = ({ item }) => {
       <Image src={item.img} />
       <Info>
         <Icon>
-          <ShoppingCartOutlined />
+          <ShoppingCart 
+            onMouseOver={({target})=>target.style.color="green"}
+            onMouseOut={({target})=>target.style.color="black"}
+          />
         </Icon>
         <Icon>
           <Link to={`/product/${item._id}`}>
-          <SearchOutlined />
+          <Search
+            onMouseOver={({target})=>target.style.color="blue"}
+            onMouseOut={({target})=>target.style.color="black"}
+          />
           </Link>
         </Icon>
         <Icon>
-          <FavoriteBorderOutlined />
+          <Favorite
+            onMouseOver={({target})=>target.style.color="red"}
+            onMouseOut={({target})=>target.style.color="black"}
+          />
         </Icon>
       </Info>
     </Container>

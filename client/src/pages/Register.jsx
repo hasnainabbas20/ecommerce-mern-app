@@ -1,17 +1,14 @@
 import styled from "styled-components";
-import "./reg.css";
-
 import { mobile } from "../responsive";
 
 const Container = styled.div`
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
   width: 100vw;
   height: 100vh;
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://i.ibb.co/CBPT2sp/Mahatma-Gandhi-Independence-Quote-Desktop-Wallpaper.png")
+    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
       center;
   background-size: cover;
   display: flex;
@@ -22,12 +19,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 2.5px );
-  -webkit-backdrop-filter: blur( 2.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background-color: white;
   ${mobile({ width: "75%" })}
 `;
 
@@ -46,9 +38,6 @@ const Input = styled.input`
   min-width: 40%;
   margin: 20px 10px 0px 0px;
   padding: 10px;
-  outline: none;
-  background-color: #f0f0f0;
-    border:none;
 `;
 
 const Agreement = styled.span`
@@ -60,21 +49,14 @@ const Button = styled.button`
   width: 40%;
   border: none;
   padding: 15px 20px;
-  background-color: cream;
-  color: black;
+  background-color: teal;
+  color: white;
   cursor: pointer;
 `;
 
-
 const Register = () => {
   return (
-    <div className="">
     <Container>
-<h1>A
-  r
-  t
-  i
-  </h1>
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
         <Form>
@@ -91,9 +73,7 @@ const Register = () => {
           <Button>CREATE</Button>
         </Form>
       </Wrapper>
-      <h1>T e c h</h1>
     </Container>
-    </div>
   );
 };
 

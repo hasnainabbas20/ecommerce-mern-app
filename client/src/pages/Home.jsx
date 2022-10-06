@@ -6,18 +6,16 @@ import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
 import Slider from "../components/Slider";
-import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
     <div>
-      <Announcement id="Announcement" />
+      <Announcement />
       <Navbar />
       <Slider />
       <Categories />
       <Products/>
       <Newsletter/>
-      <Testimonial/>
       <Footer/>
     </div>
   );
