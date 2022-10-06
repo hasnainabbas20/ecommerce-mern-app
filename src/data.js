@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://www.resizepixel.com/Image/d5bcpkymb9/Preview/1.png?v=1142e1e3-d171-4542-8f1e-a793ffcd2e9d",
+      img: "https://cdn.shopify.com/s/files/1/0617/1928/1844/products/115001163A-3.jpg?v=1658395412",
       title: "SUMMER SALE",
       desc: "Some of the best selling products are on sale",
       bg: "FCF1ED",
