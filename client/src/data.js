@@ -37,20 +37,20 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: "https://cdn.shopify.com/s/files/1/0155/8131/products/0Q8A6927_480x.jpg?v=1664965442",
+      title: "POTTERY",
       cat:"women"
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://cdn.shopify.com/s/files/1/0155/8131/collections/BeFunky-collage_20_e1f0333f-dc80-40d2-9d5c-b2a0d4a9c4dc_1500x.jpg?v=1665231347",
+      title: "CLOTHING",
       cat:"coat"
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://cdn.shopify.com/s/files/1/0155/8131/collections/sample-nitin-collection-thumb_ea22ef0a-c54c-4ad4-b1a9-00d1e677d7b8.jpg?v=1639131115&width=200",
+      title: "JEWELERY ACCESSORIES",
       cat:"jeans"
     },
   ];

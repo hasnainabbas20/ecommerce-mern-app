@@ -83,11 +83,15 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Arti-Tech</Logo>
+          <Logo>ArTitans</Logo>
         </Center>
         <Right>
-          <MenuItem className="nav-items">REGISTER</MenuItem>
-          <MenuItem className="nav-items">SIGN IN</MenuItem>
+          <Link to="/register">
+            <MenuItem className="nav-items">REGISTER</MenuItem>
+          </Link>
+          <Link to="/login">
+            <MenuItem className="nav-items">SIGN IN</MenuItem>
+          </Link>
           <Link to="/cart">
             <MenuItem>
               <Badge className="nav-items" badgeContent={quantity}>
